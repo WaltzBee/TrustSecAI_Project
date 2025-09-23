@@ -1,0 +1,42 @@
+    :root {
+        --background-color: #0D1117;
+        --text-color: #7D8590;
+        --link-color: #7289DA;
+        --link-color-hover: #7289DA;
+        --title-background-color: #010409;
+        --title-border: 1.5px solid rgba(0,0,0,1)
+
+    }
+
+
+/*Main Content*/
+    html {
+        background: #f5e8c6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin:7px;
+        padding: 100px;
+        height: 100vh;
+    }
+    section {
+        margin-bottom: 3vh;
+    }
+
+    .h1 {
+        font-size: xx-large;
+    }
+
+    .title {
+        background: linear-gradient(to right, #531de9ff, rgb(6, 0, 22));
+        border-radius: 7.5px;
+        border: var(--title-border);
+        color: aliceblue;
+        font-size: x-large;
+        width: fit-content;
+        margin: auto;
+    }
+    h3 {
+        font-size: large;
+        font-weight: bold;
+        color: #7289DA;
+    }
