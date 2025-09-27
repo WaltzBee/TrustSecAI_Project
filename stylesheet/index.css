@@ -4,7 +4,8 @@
         --link-color: #7289DA;
         --link-color-hover: #7289DA;
         --title-background-color: #010409;
-        --title-border: 1.5px solid rgba(0,0,0,1)
+        --title-border: 1.5px solid rgba(0,0,0,1);
+        --entire-border: 5px solid #000000ff;
 
     }
 
@@ -14,9 +15,10 @@
         background: #f5e8c6;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
-        margin:7px;
+        margin: 7px;
         padding: 100px;
         height: 100vh;
+        border: var(--entire-border);
     }
     section {
         margin-bottom: 3vh;
@@ -30,6 +32,7 @@
     .section-one p {
         font-style: oblique;
         font-family: monospace;
+        border: var(--title-border)
     }
 /*Class Details*/
 
@@ -47,4 +50,11 @@
         font-weight: bold;
         color: #7289DA;
     }
-    .navUI {}
+
+    .google {
+        font-size: 1em;
+    }
+
+    .google:hover {
+        font-size: 5em;
+    }
