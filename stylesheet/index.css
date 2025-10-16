@@ -4,47 +4,99 @@
         --link-color: #7289DA;
         --link-color-hover: #7289DA;
         --title-background-color: #010409;
-        --title-border: 1.5px solid rgba(0,0,0,1)
+        --title-border: 1.5px solid rgba(0,0,0,1);
+        --entire-border: 5px solid #000000ff;
 
     }
 
 
 /*Main Content*/
     html {
-        background: #f5e8c6;
+        background: #f3efe6;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
-        margin:7px;
-        padding: 100px;
-        height: 100vh;
+        margin: 7px;
+        padding: 20px;
+        height: auto;
+        border: var(--entire-border);
     }
+
     section {
         margin-bottom: 3vh;
     }
 
-    .section-one h1 {
-        font-size: 100px;
-        color: #7289DA;
+/*Section Header*/
+
+    .flex-container {
+        display:flex;
+        text-align: center;
     }
 
-    .section-one p {
-        font-style: oblique;
-        font-family: monospace;
+    .flex-container div a {
+        width: 100px;
+        margin: 3px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        line-height: 75px;
+        font-size: 2em;
     }
+
+    .flex-logo {
+        flex: 0 0 16.6%;
+        box-shadow: 0 0 0 1px black;
+        padding: 2.2rem;
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .flex-item {
+        flex: 8;
+        box-shadow: 0 0 1px black;
+        padding: 2.2rem;
+        display:block;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+/*Section 1*/
+
+    .flex-item-column {
+        flex: 8;
+        box-shadow: 0 0 1px black;
+        padding: 2.2rem;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+    
+    img.evolutionAI {
+        width:360px;
+        box-sizing: border-box;
+        object-fit: cover;
+        filter:grayscale(100%);
+    }
+
+    img.evolutionAI:hover {
+        width: 720px;
+        transition: 1s;
+        filter:none;
+    }
+ 
 /*Class Details*/
 
     .title {
-        background: linear-gradient(to right, #531de9ff, rgb(6, 0, 22));
-        border-radius: 7.5px;
-        border: var(--title-border);
-        color: aliceblue;
-        font-size: x-large;
-        width: fit-content;
-        margin: auto;
+        border-width: 20px;
+        border: 1px solid black;
+        text-align: center;
+
     }
-    h3 {
-        font-size: large;
-        font-weight: bold;
-        color: #7289DA;
-    }
-    .navUI {}
+    
