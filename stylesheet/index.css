@@ -68,3 +68,27 @@
         box-sizing: border-box;
         object-fit: cover;
     }
+<<<<<<< Updated upstream
+=======
+
+/* Meet The Team Elements */
+
+    #Members {
+        display: flex;
+        border: 1px black solid;
+        padding: 5px;
+    }
+
+    #Members > div {
+        padding: 10px;
+        border: 1px black solid;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    img#NourAlhussein {
+        width:200px;
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+>>>>>>> Stashed changes
