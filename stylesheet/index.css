@@ -99,33 +99,6 @@
         text-align: center;
 
     }
-/*Main Content*/
-    
-    section {
-        margin-bottom: 3vh;
-    }
-
-    .section-one h1 {
-        font-size: 100px;
-        color: #7289DA;
-    }
-
-    .section-one p {
-        font-style: oblique;
-        font-family: monospace;
-    }
-/*Class Details*/
-
-    .title {
-        background: linear-gradient(to right, #531de9ff, rgb(6, 0, 22));
-        border-radius: 7.5px;
-        border: var(--title-border);
-        color: aliceblue;
-        font-size: x-large;
-        width: fit-content;
-        margin: auto;
-    }
-    
 
 /* Meet The Team Elements */
 
