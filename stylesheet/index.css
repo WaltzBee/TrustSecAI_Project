@@ -98,39 +98,4 @@
         text-align: center;
 
     }
-
-/* Meet The Team Elements */
-
-    html {
-        background: #f5e8c6;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        margin:7px;
-        padding: 100px;
-        height: 100vh;
-    }
-
-    .Membersh3 {
-        font-size: 32px;
-        font-weight: bold;
-        color: #7289DA;
-    }
-
-    #Members {
-        display: flex;
-        border: 1px black solid;
-        padding: 5px;
-    }
-
-    #Members > div {
-        padding: 10px;
-        border: 1px black solid;
-        text-align: center;
-        flex-direction: column;
-    }
-
-    img#NourAlhussein {
-        width:200px;
-        box-sizing: border-box;
-        object-fit: cover;
-    }
+    
