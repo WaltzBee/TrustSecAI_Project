@@ -16,51 +16,23 @@
         font-size: 100%;
         margin: 7px;
         padding: 20px;
-        height: auto;
-        border: var(--entire-border);
+        outline: auto;
     }
 
-    section {
-        margin-bottom: 3vh;
-    }
-
-/*Section Header*/
-
-    .flex-container {
-        display:flex;
-        text-align: center;
-    }
-
-    .flex-container div a {
-        width: 100px;
-        margin: 3px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        line-height: 75px;
-        font-size: 200%;
-    }
-
-    .flex-logo {
-        flex: 0 0 16.6%;
-        box-shadow: 0 0 0 1px black;
-        padding: 2.2rem;
-        display: block;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
-    }
+/*Flex*/
 
     .flex-item {
-        flex: 8;
-        box-shadow: 0 0 1px black;
-        padding: 2.2rem;
-        display:block;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+        display: flex;
+        border: 1px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .flex-item div {
+        padding: 10px;
+        border: 1px solid black;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
 /*Section 1*/
@@ -95,6 +67,7 @@
     .title {
         border-width: 20px;
         border: 1px solid black;
+        height: auto;
         text-align: center;
 
     }
