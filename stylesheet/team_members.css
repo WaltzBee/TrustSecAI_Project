@@ -15,6 +15,12 @@
         color: #7289DA;
     }
 
+    #Membersh2 {
+        font-size: 26px;
+        font-weight: bold;
+        color: #7289DA;
+    }
+    
     #Members {
         display: flex;
         border: 1px black solid;
@@ -25,10 +31,15 @@
         padding: 10px;
         border: 1px black solid;
         text-align: center;
-        flex-direction: column;
     }
 
     img#NourAlhussein {
+        width:200px;
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+
+    img#RubyatTasnuvaHasan {
         width:200px;
         box-sizing: border-box;
         object-fit: cover;
