@@ -9,16 +9,24 @@
 		<title>Work and Research</title>
 	</head>
 	
-	<a href=index.html>Home</a>
-	<a href=Team_Members.html>Meet the Team</a>
+	<body>
 
+		<nav class="flex-item">
+			<!--Homepage-->
+			<div><a href="index.html">Home</a></div>
+
+			<!--Team Members-->
+			<div><a href="Team_members.html">Meet the Team</a></div>
+		</nav>
+	</body>
 	
 	<header>
 	<div class="flex-item" style="font-size: 3em;">Foundational Work and Research</div>
 	</header>
 	
 	<h2>
-	We advance core research in machine learning (ML) and deep learning (DL) to identify vulnerabilities and build defenses against adversarial AI systems, with focus areas including:
+	We advance core research in machine learning (ML) and deep learning (DL) 
+	to identify vulnerabilities and build defenses against adversarial AI systems, with focus areas including:
 	</h2>
 	
 	<div id="Members">
@@ -35,7 +43,10 @@
 			Data leakage
 			</h3>
 			<p>
-			preventing sensitive information exposure and model inversion.
+			<a style="font-weight: bold;">Data leakage </a>in AI refers to the unintentional exposure of information from the training dataset that leads to 
+			misleading performance metrics. This usually occurs when the model inadvertently has access to the 
+			target information during training, causing it to perform exceptionally well during training and 
+			validation but poorly when applied to unseen data.
 			</p>
 		</div>
 		<div>
@@ -43,15 +54,56 @@
 			Adversarial AI
 			</h3>
 			<p>
-			attacks, robustness analysis, and certified defenses.
+				<a style="font-weight: bold;">Adversarial AI </a>refers to techniques and methods that involve 
+				intentionally manipulating AI systems to exploit their vulnerabilities, leading to unexpected or 
+				harmful outcomes. This concept is particularly relevant in the context of machine learning models, 
+				where adversaries craft inputs designed to confuse or mislead the AI.
 			</p>
+
+			<p style="font-weight: bold; text-align: left;">Types of Attacks:</p>
+
+			<ul style="list-style-position: inside;">
+				<li><a style="font-weight: bold;">Evasion attacks </a>are used to modify inputs when the AI is 
+				processing the user's prompt.</li>
+				<li><a style="font-weight: bold;">Poisoning attacks </a>work by injecting malicious data in to the 
+				training set to compromise the model's learning process.</li>
+			</ul>
+
+			<p style="font-weight: bold; text-align: left;">Defensive Strategies:</p>
+
+			<ul style="list-style-position: inside;">
+				<li>AIs are trained on adversarial examples to simulate attacks and ways to mitigate and defend against it.</li>
+				<li>Optimization training models and code to monitor for unusual patterns.</li>
+			</ul>
+
 		</div>
 		<div>
 			<h3 class=Membersh3>
 			Large Language Models (LLMs)
 			</h3>
+
 			<p>
-			risks, attacks, and secure deployment.
+				<a style="font-weight: bold;"> Large Language Models (LLMs)</a> are advanced AI systems designed to understand and generate human language. 
+				They are trained on extensive datasets using deep learning techniques, particularly neural networks with 
+				many layers. Here are key points to understand about LLMs:
 			</p>
+
+			<p style="font-weight: bold; text-align: left;">Characteristics and Application Usage of LLMs</p>
+
+			<ul style="list-style-position: inside;">
+				<li><a style="font-weight: bold;">Large </a>sets of parameter, upwards of billions, leading to 
+				intricate pattern recognitions and responding to a user's prompt.</li>
+				<li><a style="font-weight: bold;">LLMs </a>are pre-trained on diverse text sources and can be fine-tuned for specific tasks, such as translation
+					or content generation.
+				</li>
+				<li><a style="font-weight: bold;">Use applications: </a> Customer support, content creation, education</li>
+			</ul>
+
+
 		</div>
 	</div>
+
+	<footer>
+		<p>Website Design by: Max LaMonica & Ellie Axii</p>
+		<a href="mailto:nalhussien@albany.edu">nalhussien@albany.edu for more info</a>
+	</footer>

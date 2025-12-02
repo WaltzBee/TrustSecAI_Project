@@ -40,7 +40,7 @@
     .flex-item-column {
         flex: 8;
         box-shadow: 0 0 3px black;
-        padding: 2.2rem;
+        padding: 15px;
         display: block;
         flex-direction: column;
         justify-content: center;
@@ -65,12 +65,11 @@
 
     .flex-list {
         display: flex;
-        padding: 50px;
-
+        padding: 20px;
     }
 
     .flex-list > div {
-        padding: 100px;
+        padding: 25px;
         flex:25%;
         box-shadow: 0 0 3px black;
         flex-direction: column;
@@ -92,4 +91,10 @@
         padding: 3px;
         background-color: rgb(231, 196, 184);
         color: rgb(0, 0, 0);
+    }
+
+    img#main_image {
+        padding: 10px;
+        max-width: 40%;
+        max-height: 40%;
     }
