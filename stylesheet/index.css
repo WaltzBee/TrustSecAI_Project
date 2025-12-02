@@ -47,6 +47,22 @@
         text-align: center;
     }
 
+    img.evolutionAI:hover {
+        width: 720px;
+        transition: 1s;
+        filter:none;
+    }
+ 
+/*Class Details*/
+
+    .title {
+        border-width: 20px;
+        border: 1px solid black;
+        height: auto;
+        text-align: center;
+
+    }
+
     .flex-list {
         display: flex;
         padding: 50px;
@@ -77,5 +93,3 @@
         background-color: rgb(231, 196, 184);
         color: rgb(0, 0, 0);
     }
-
- 
