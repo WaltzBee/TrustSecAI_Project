@@ -47,7 +47,6 @@
         text-align: center;
     }
 
-<<<<<<< HEAD
     img.evolutionAI:hover {
         width: 720px;
         transition: 1s;
@@ -63,13 +62,10 @@
         text-align: center;
 
     }
-=======
+
     .flex-list {
         display: flex;
         border: 10px black solid;
         padding: 5px;
 
     }
-
- 
->>>>>>> c40088aee0c8513c0c4147aeccd91aaa86cba9cb
