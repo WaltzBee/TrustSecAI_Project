@@ -1,7 +1,7 @@
 /* Meet The Team Elements */
 
     html {
-        background: #dbffcb;
+        background: #ffebbe;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         outline-offset: 0px;
@@ -47,4 +47,10 @@
         padding: 5px 0px;
     }
 
-
+    .list-item {
+        display: flex;
+        border: 1px;
+        height: auto;
+        padding: 5px;
+        float: right;
+    }
