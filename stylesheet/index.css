@@ -39,35 +39,19 @@
 
     .flex-item-column {
         flex: 8;
-        box-shadow: 0 0 1px black;
+        box-shadow: 0 0 3px black;
         padding: 2.2rem;
         display: block;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        align-items: center;
-
-    }
-    
-    img.evolutionAI {
-        width:360px;
-        box-sizing: border-box;
-        object-fit: cover;
-        filter:grayscale(100%);
     }
 
-    img.evolutionAI:hover {
-        width: 720px;
-        transition: 1s;
-        filter:none;
+    .flex-list {
+        display: flex;
+        border: 10px black solid;
+        padding: 5px;
+
     }
+
  
-/*Class Details*/
-
-    .title {
-        border-width: 20px;
-        border: 1px solid black;
-        height: auto;
-        text-align: center;
-
-    }
