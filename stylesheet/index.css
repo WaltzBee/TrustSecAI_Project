@@ -49,9 +49,33 @@
 
     .flex-list {
         display: flex;
-        border: 10px black solid;
-        padding: 5px;
+        padding: 50px;
 
+    }
+
+    .flex-list > div {
+        padding: 100px;
+        flex:25%;
+        box-shadow: 0 0 3px black;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    img#qr-code {
+        padding: 10px;
+        max-width: 75%;
+        max-height: 75%;
+    }
+
+    #lab_images {
+        align-content: center;
+    }
+
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: rgb(231, 196, 184);
+        color: rgb(0, 0, 0);
     }
 
  
